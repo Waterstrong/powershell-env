@@ -1,4 +1,4 @@
-. "$env:SCRIPT_HOME\library\ini-parser.ps1"
+. "$env:SCRIPT_HOME\library\*.ps1"
 
 $ini = Parse-IniFile "$env:SCRIPT_HOME\home.ini"
 
