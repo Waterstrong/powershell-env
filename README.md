@@ -1,5 +1,6 @@
 # powershell-env
 PowerShell Environment Auto Setup
+> I strongly recommend to switch to [gitbash-env](https://github.com/Waterstrong/gitbash-env) for better shell experience. Enjoy!
 
 ## Get Started with PowerShell
 
