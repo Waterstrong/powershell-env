@@ -1,6 +1,7 @@
 Set-Alias glw ./gradlew
 Set-Alias ll ls
 Set-Alias grep findstr
+Set-Alias open start
 
 function Goto-ProjectHome { & cd $env:PROJECT_HOME }
 Set-Alias .project Goto-ProjectHome

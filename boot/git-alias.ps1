@@ -22,5 +22,8 @@ New-Alias -Name gcmsg -Value Get-GitCommitMsg
 function Get-GitPullRebase { & git pull --rebase }
 New-Alias -Name gup -Value Get-GitPullRebase
 
+function Get-GitPullRebaseWithStash { & git stash; git pull --rebase; git stash pop }
+New-Alias -Name gups -Value Get-GitPullRebaseWithStash
+
 function Get-GitLogGraph { & git log --oneline --decorate --color --graph }
 New-Alias -Name glog -Value Get-GitLogGraph
